@@ -1,0 +1,952 @@
+2019-02-20 16:03:55,807 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-02-20 16:03:55,821 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.0\bin\user.properties
+2019-02-20 16:03:55,821 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.0\bin\system.properties
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: java.version=1.8.0_181
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: os.name=Windows 10
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: os.arch=amd64
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: os.version=10.0
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: file.encoding=Cp1254
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-02-20 16:03:55,826 INFO o.a.j.JMeter: Available Processors =8
+2019-02-20 16:03:55,830 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-02-20 16:03:55,830 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-02-20 16:03:55,830 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.0
+2019-02-20 16:03:55,830 INFO o.a.j.JMeter: user.dir  =C:\Users\mert\Desktop\sprind multi tread\asimio-resttemplate-troubleshooting-svc-2\src\test\resources\jmeter
+2019-02-20 16:03:55,831 INFO o.a.j.JMeter: PWD       =C:\Users\mert\Desktop\sprind multi tread\asimio-resttemplate-troubleshooting-svc-2\src\test\resources\jmeter
+2019-02-20 16:03:55,833 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: DESKTOP-EC1RQJV FullName: DESKTOP-EC1RQJV
+2019-02-20 16:03:55,836 INFO o.a.j.s.FileServer: Default base='C:\Users\mert\Desktop\sprind multi tread\asimio-resttemplate-troubleshooting-svc-2\src\test\resources\jmeter'
+2019-02-20 16:03:55,841 INFO o.a.j.s.FileServer: Set new base='C:\Users\mert\Desktop\sprind multi tread\asimio-resttemplate-troubleshooting-svc-2\src\test\resources\jmeter'
+2019-02-20 16:03:55,956 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-02-20 16:03:55,969 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-02-20 16:03:55,972 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-02-20 16:03:55,977 INFO o.a.j.s.SaveService: Loading file: loadTest.jmx
+2019-02-20 16:03:56,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-20 16:03:56,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-20 16:03:56,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-20 16:03:56,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-20 16:03:56,032 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-02-20 16:03:56,032 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-02-20 16:03:56,039 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-02-20 16:03:56,044 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-20 16:03:56,045 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-20 16:03:56,045 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-20 16:03:56,049 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-02-20 16:03:56,049 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-02-20 16:03:56,460 INFO o.a.j.JMeter: Running test (1550667836460)
+2019-02-20 16:03:56,498 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Get Demo
+2019-02-20 16:03:56,501 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Get Demo.
+2019-02-20 16:03:56,501 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-20 16:03:56,502 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=100 perThread=10000.0 delayedStart=false
+2019-02-20 16:03:56,509 INFO o.a.j.t.JMeterThread: Thread started: Get Demo 1-1
+2019-02-20 16:03:56,510 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-20 16:03:56,510 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-20 16:03:57,521 INFO o.a.j.p.h.s.HTTPJavaImpl: Maximum connection retries = 0
+2019-02-20 16:03:57,522 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-02-20 16:03:57,522 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-02-20 16:03:57,522 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-02-20 16:03:57,522 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-02-20 16:03:57,538 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:03:57,538 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:03:57,538 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:03:58,546 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:03:58,546 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:03:58,546 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:03:59,550 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:03:59,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:03:59,551 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:00,554 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:00,554 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:00,554 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:00,556 INFO o.a.j.r.Summariser: summary +      4 in 00:00:04 =    1.0/s Avg:     7 Min:     4 Max:    17 Err:     4 (100.00%) Active: 1 Started: 1 Finished: 0
+2019-02-20 16:04:01,560 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:01,560 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:01,560 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:02,566 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:02,566 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:02,566 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:03,570 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:03,570 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:03,570 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:04,574 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:04,574 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:04,574 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:05,579 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:05,579 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:05,579 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:06,510 INFO o.a.j.t.JMeterThread: Thread started: Get Demo 1-2
+2019-02-20 16:04:06,582 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:06,583 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:06,583 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:07,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:07,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:07,514 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:07,587 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:07,588 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:07,588 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:08,517 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:08,517 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:08,517 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:08,592 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:08,593 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:08,593 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:09,523 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:09,523 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:09,523 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:09,596 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:09,596 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:09,597 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:10,526 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:10,526 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:10,526 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:10,600 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:10,600 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:10,600 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:11,530 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:11,531 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:11,531 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:11,605 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:11,605 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:11,605 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:12,535 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:12,535 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:12,535 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:12,610 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:12,610 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:12,610 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:13,540 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:13,540 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:13,540 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:13,614 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:13,614 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:13,614 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:14,545 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:14,545 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:14,545 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:14,618 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:14,619 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:14,619 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:15,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:15,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:15,551 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:15,624 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:15,624 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:15,624 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:16,509 INFO o.a.j.t.JMeterThread: Thread started: Get Demo 1-3
+2019-02-20 16:04:16,558 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:16,558 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:16,558 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:16,628 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:16,628 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:16,628 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:17,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:17,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:17,513 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:17,563 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:17,563 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:17,563 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:17,632 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:17,632 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:17,632 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:18,516 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:18,516 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:18,516 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:18,568 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:18,568 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:18,568 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:18,637 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:18,637 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:18,637 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:19,519 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:19,519 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:19,519 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:19,570 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:19,570 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:19,570 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:19,641 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:19,641 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:19,641 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:20,522 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:20,522 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:20,522 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:20,575 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:20,575 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:20,575 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:20,644 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:20,644 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:20,644 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:21,527 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:21,527 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:21,527 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:21,579 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:21,579 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:21,579 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:21,648 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:21,648 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:21,648 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:22,530 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:22,530 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:22,530 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:22,582 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:22,583 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:22,583 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:22,651 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:22,652 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:22,652 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:23,534 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:23,534 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:23,534 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:23,587 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:23,587 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:23,587 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:23,656 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:23,656 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:23,656 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:24,539 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:24,539 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:24,539 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:24,591 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:24,591 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:24,591 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:24,661 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:24,661 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:24,661 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:25,543 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:25,543 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:25,543 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:25,594 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:25,594 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:25,595 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:25,666 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:25,666 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:25,666 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:26,510 INFO o.a.j.t.JMeterThread: Thread started: Get Demo 1-4
+2019-02-20 16:04:26,546 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:26,546 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:26,546 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:26,597 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:26,597 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:26,597 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:26,670 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:26,670 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:26,670 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:27,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:27,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:27,513 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:27,552 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:27,552 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:27,552 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:27,601 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:27,601 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:27,601 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:27,676 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:27,676 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:27,677 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:28,516 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:28,516 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:28,516 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:28,555 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:28,555 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:28,556 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:28,605 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:28,605 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:28,605 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:28,681 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:28,681 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:28,681 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:29,520 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:29,520 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:29,520 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:29,561 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:29,561 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:29,561 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:29,610 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:29,611 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:29,611 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:29,686 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:29,686 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:29,686 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:30,524 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:30,524 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:30,524 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:30,524 INFO o.a.j.r.Summariser: summary +     69 in 00:00:30 =    2.3/s Avg:     3 Min:     3 Max:     6 Err:    69 (100.00%) Active: 4 Started: 4 Finished: 0
+2019-02-20 16:04:30,525 INFO o.a.j.r.Summariser: summary =     73 in 00:00:34 =    2.1/s Avg:     3 Min:     3 Max:    17 Err:    73 (100.00%)
+2019-02-20 16:04:30,564 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:30,564 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:30,564 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:30,615 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:30,615 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:30,615 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:30,689 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:30,689 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:30,689 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:31,530 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:31,530 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:31,530 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:31,569 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:31,569 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:31,569 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:31,619 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:31,619 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:31,619 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:31,692 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:31,693 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:31,693 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:32,535 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:32,535 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:32,535 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:32,573 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:32,574 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:32,574 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:32,625 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:32,625 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:32,625 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:32,697 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:32,697 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:32,697 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:33,539 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:33,539 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:33,539 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:33,577 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:33,577 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:33,577 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:33,632 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:33,632 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:33,632 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:33,700 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:33,700 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:33,700 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:34,544 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:34,545 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:34,545 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:34,581 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:34,581 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:34,581 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:34,637 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:34,637 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:34,637 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:34,705 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:34,706 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:34,706 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:35,549 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:35,549 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:35,549 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:35,584 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:35,584 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:35,584 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:35,643 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:35,644 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:35,644 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:35,709 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:35,709 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:35,709 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:36,510 INFO o.a.j.t.JMeterThread: Thread started: Get Demo 1-5
+2019-02-20 16:04:36,552 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:36,553 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:36,553 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:36,590 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:36,590 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:36,590 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:36,649 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:36,649 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:36,649 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:36,711 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:36,711 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:36,711 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:37,514 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,514 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,514 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:37,559 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,559 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,559 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:37,594 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,594 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,594 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:37,654 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,654 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,654 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:37,715 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,715 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:37,715 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:38,518 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,518 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,518 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:38,563 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,563 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,563 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:38,597 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,597 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,598 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:38,657 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,657 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,657 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:38,720 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,721 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:38,721 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:39,522 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,522 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,522 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:39,566 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,566 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,566 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:39,600 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,601 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,601 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:39,664 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,665 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,665 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:39,725 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,726 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:39,726 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:40,525 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,525 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,525 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:40,570 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,570 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,570 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:40,605 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,605 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,605 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:40,668 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,668 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,668 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:40,730 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,730 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:40,730 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:41,528 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,528 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,528 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:41,574 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,574 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,574 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:41,608 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,608 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,608 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:41,671 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,671 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,671 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:41,733 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,733 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:41,733 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:42,533 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,533 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,533 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:42,581 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,582 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,582 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:42,614 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,614 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,614 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:42,675 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,675 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,675 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:42,737 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,737 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:42,737 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:43,537 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,537 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,537 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:43,585 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,585 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,585 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:43,619 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,619 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,619 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:43,679 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,679 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,679 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:43,740 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,740 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:43,740 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:44,543 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,543 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,543 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:44,590 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,591 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,591 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:44,622 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,622 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,622 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:44,682 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,682 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,682 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:44,743 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,744 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:44,744 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:45,546 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,546 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,546 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:45,595 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,595 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,595 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:45,627 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,627 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,627 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:45,686 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,686 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,686 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:45,748 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,748 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:45,748 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:46,509 INFO o.a.j.t.JMeterThread: Thread started: Get Demo 1-6
+2019-02-20 16:04:46,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,551 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:46,599 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,600 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,600 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:46,630 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,630 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,630 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:46,689 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,689 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,689 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:46,752 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,752 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:46,752 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:47,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,513 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:47,554 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,554 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,554 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:47,604 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,605 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,605 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:47,634 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,634 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,634 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:47,694 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,694 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,694 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:47,761 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,761 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:47,761 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:48,518 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,518 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,518 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:48,558 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,558 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,558 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:48,608 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,608 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,608 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:48,639 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,639 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,639 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:48,698 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,698 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,698 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:48,764 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,764 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:48,764 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:49,520 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,520 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,521 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:49,560 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,560 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,561 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:49,612 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,612 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,612 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:49,641 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,642 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,642 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:49,700 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,701 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,701 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:49,769 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,769 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:49,769 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:50,524 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,524 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,524 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:50,563 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,563 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,563 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:50,615 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,615 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,615 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:50,644 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,645 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,645 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:50,703 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,704 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,704 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:50,773 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,773 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:50,773 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:51,527 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,528 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,528 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:51,567 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,568 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,568 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:51,617 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,617 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,617 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:51,648 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,648 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,648 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:51,707 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,708 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,708 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:51,776 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,776 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:51,776 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:52,531 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,531 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,531 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:52,572 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,572 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,572 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:52,622 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,622 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,622 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:52,651 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,651 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,651 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:52,711 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,711 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,711 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:52,780 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,780 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:52,780 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:53,534 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,534 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,534 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:53,574 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,574 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,575 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:53,624 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,625 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,625 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:53,654 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,654 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,654 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:53,714 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,714 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,714 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:53,784 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,784 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:53,784 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:54,537 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,537 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,537 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:54,578 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,578 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,578 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:54,628 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,628 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,628 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:54,657 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,658 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,658 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:54,716 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,716 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,716 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:54,788 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,788 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:54,788 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:55,541 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,541 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,541 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:55,581 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,581 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,581 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:55,632 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,633 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,633 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:55,661 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,662 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,662 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:55,722 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,722 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,722 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:55,791 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,791 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:55,791 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:56,509 INFO o.a.j.t.JMeterThread: Thread started: Get Demo 1-7
+2019-02-20 16:04:56,543 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,543 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,544 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:56,585 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,585 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,585 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:56,635 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,635 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,635 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:56,665 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,665 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,665 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:56,725 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,725 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,725 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:56,794 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,794 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:56,795 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:57,512 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,513 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,513 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:57,547 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,548 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,548 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:57,589 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,589 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,590 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:57,638 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,638 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,638 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:57,668 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,668 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,668 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:57,730 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,730 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,730 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:57,799 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,799 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:57,799 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:58,515 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,515 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,515 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:58,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,551 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:58,594 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,594 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,594 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:58,643 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,643 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,643 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:58,670 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,670 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,671 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:58,732 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,733 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,733 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:58,801 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,801 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:58,802 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:59,518 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,519 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,519 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:59,553 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,553 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,553 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:59,597 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,597 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,597 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:59,645 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,645 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,645 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:59,674 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,674 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,674 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:59,737 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,737 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,737 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:04:59,805 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,805 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:04:59,805 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:00,521 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,521 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,521 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:00,522 INFO o.a.j.r.Summariser: summary +    159 in 00:00:30 =    5.3/s Avg:     3 Min:     2 Max:    10 Err:   159 (100.00%) Active: 7 Started: 7 Finished: 0
+2019-02-20 16:05:00,523 INFO o.a.j.r.Summariser: summary =    232 in 00:01:04 =    3.6/s Avg:     3 Min:     2 Max:    17 Err:   232 (100.00%)
+2019-02-20 16:05:00,558 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,558 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,558 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:00,599 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,600 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,600 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:00,649 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,650 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,650 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:00,677 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,677 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,677 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:00,739 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,739 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,739 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:00,808 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,808 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:00,808 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:01,527 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,527 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,527 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:01,560 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,560 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,560 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:01,604 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,604 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,604 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:01,653 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,653 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,653 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:01,681 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,681 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,681 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:01,742 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,742 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,742 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:01,811 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,811 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:01,811 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:02,529 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,529 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,529 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:02,564 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,564 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,564 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:02,607 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,607 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,607 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:02,656 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,656 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,656 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:02,683 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,684 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,684 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:02,745 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,745 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,745 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:02,814 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,814 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:02,814 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:03,534 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,534 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,534 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:03,569 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,569 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,569 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:03,612 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,612 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,612 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:03,664 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,664 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,664 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:03,688 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,688 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,688 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:03,749 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,749 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,749 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:03,818 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,818 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:03,818 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:04,537 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,537 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,537 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:04,571 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,572 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,572 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:04,615 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,615 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,615 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:04,666 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,666 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,666 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:04,691 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,691 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,691 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:04,752 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,752 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,752 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:04,823 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,823 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:04,823 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:05,541 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,541 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,541 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:05,575 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,575 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,575 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:05,619 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,619 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,619 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:05,668 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,669 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,669 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:05,694 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,694 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,694 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:05,755 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,755 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,755 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:05,826 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,826 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:05,826 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:06,510 INFO o.a.j.t.JMeterThread: Thread started: Get Demo 1-8
+2019-02-20 16:05:06,544 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,544 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,544 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:06,578 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,578 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,579 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:06,623 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,623 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,623 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:06,673 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,673 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,673 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:06,697 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,698 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,698 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:06,760 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,760 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,760 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:06,831 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,832 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:06,832 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:07,512 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,512 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,512 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:07,548 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,548 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,548 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:07,582 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,582 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,582 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:07,627 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,627 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,627 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:07,676 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,676 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,676 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:07,701 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,701 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,701 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:07,764 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,764 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,764 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:07,835 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,835 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:07,835 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:08,516 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,516 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,516 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:08,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,551 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,551 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:08,585 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,585 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,585 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:08,631 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,631 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,632 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:08,679 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,679 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,679 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:08,703 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,703 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,703 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:08,767 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,767 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,767 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:08,838 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,838 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 415 for URL: http://localhost:8900/api/send/data
+2019-02-20 16:05:08,838 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 415
+2019-02-20 16:05:09,228 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2019-02-20 16:05:09,229 INFO o.a.j.r.ResultCollector: Shutdown hook ended

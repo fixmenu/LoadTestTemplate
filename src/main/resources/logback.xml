@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scanPeriod="10 seconds" debug="false" scan="true">
+    <property name="LOG_DIR" value="../logs" />
+
+    <appender name="STDOUTAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date [%thread] %level %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="errorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_DIR}/error.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <FileNamePattern>${LOG_DIR}/error.%d{yyyy-MM-dd}.log.gz
+            </FileNamePattern>
+
+            <!-- keep 30 days' worth of history -->
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%date [%thread] %level %msg%n</pattern>
+        </encoder>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+
+    <appender name="SystemAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_DIR}/System.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <FileNamePattern>${LOG_DIR}/System.%d{yyyy-MM-dd}.log.gz
+            </FileNamePattern>
+
+            <!-- keep 30 days' worth of history -->
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%date [%thread] %level %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="tpsAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_DIR}/tps.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <FileNamePattern>${LOG_DIR}/tps.%d{yyyy-MM-dd}.log.gz
+            </FileNamePattern>
+
+            <!-- keep 30 days' worth of history -->
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%date : %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+
+    <logger name="com.asimio.api.demo" additivity="false" level="DEBUG">
+        <appender-ref ref="SystemAppender" />
+        <appender-ref ref="errorAppender" />
+    </logger>
+
+
+    <logger name="org.springframework" additivity="false" >
+        <level value="INFO" />
+        <appender-ref ref="SystemAppender" />
+    </logger>
+
+    <root level="ERROR">
+        <appender-ref ref="errorAppender" />
+    </root>
+
+</configuration>
